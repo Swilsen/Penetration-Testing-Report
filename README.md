@@ -42,7 +42,7 @@ They included the following categories:
 
 All of the vulnerabilities were classified as Medium severity using CVSS v4.0 due to them sharing exploit preconditions.
 
-# Highlighted Vulnerability - Stored XSS in the 'Guest Name' Field
+# Highlighted Vulnerability - Stored XSS
 The vulnerability is of the type stored cross-site scripting, and is caused by improper input validation and output encoding.
 
 ### Exploitation
@@ -50,7 +50,7 @@ A payload such as:
 `<img src=x onerror=test()>`
 was successfully stored in the database and executed automatically when the web page was loaded. The vulnerability existed because the "Comment" field implemented encoding of "<" and ">", while the "Name" field did not. This inconsistency created an unintended attack vector.
 
-# Remidiation Strategies and Defensive Recommendations
+# Defensive Recommendations
 - Implement centralized input validation and encoding.
 - Adopt secure development lifecycle practices.
 - Conduct periodic security testing before production release.
