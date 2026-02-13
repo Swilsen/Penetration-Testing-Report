@@ -63,4 +63,5 @@ The test reinforced several important security principles:
 - Blacklisting approaches do not work as intended without proper encoding.
 - Business logic flaws can be as impactful as technical vulnerabilities.
 - Risk classification requires contextual business understanding, and not simply technical scoring.
+
 The project also improved my ability to communicate security vulnerabilities to both technical and non-technical recipients.
