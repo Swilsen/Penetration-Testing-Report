@@ -16,13 +16,12 @@ The following were explicitily excluded:
 
 # Methodology
 The testing process followed these phases:
-- Reconnaissance
-- Discovery of input vectors
-- Exploitation through proof-of-concept payloads
-- Documentation anc CVSS scoring
+1. Reconnaissance
+2. Discovery of input vectors
+3. Exploitation through proof-of-concept payloads
+4. Documentation anc CVSS scoring
 
 Primary tools and techniques used:
-- Manual testing
 - HTTP request interception and modification using Burp Suite
 - Source code inspection via browser developer tools
 - Payload testing for XSS and SQL injection
@@ -32,7 +31,7 @@ The approach was mainly manual in order to promote the understanding of vulnerab
 
 # Summary of Findings
 A total of 8 vulnerabilites were identified.
-They included the following categories:
+They were in the form of the following categories:
 - XSS, or cross-site scripting
 - Reflected XSS
 - SQL injection
